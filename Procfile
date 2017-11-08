@@ -1,3 +1,3 @@
-api: cd api && mvn spring-boot:run 
-admin: cd admin && mvn spring-boot:run
-web: cd site && mvn spring-boot:run
+api: java -jar api/target/api.jar
+admin: java -jar admin/target/admin.jar
+web: java -jar site/target/ROOT.jar
